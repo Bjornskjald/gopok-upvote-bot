@@ -7,4 +7,6 @@
 // @grant        none
 // ==/UserScript==
 
-document.querySelectorAll('.v-btn.v-btn--floating.v-btn--outline.theme--light.blue--text').forEach(button => button.click())
+setInterval(() => {
+  document.querySelectorAll('.v-btn.v-btn--floating.v-btn--outline.theme--light.blue--text').forEach(button => button.click())
+}, 1000)
